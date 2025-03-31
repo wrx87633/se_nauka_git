@@ -8,10 +8,11 @@ function avarge (a,b)
 function avarge (a,b a_higher = true)
 {
 if (a_higher)
-<<<<<<< HEAD
-	return 0.1*a+0.9*b;
-=======
+{
 	return 0.9*a+0.1*b;
->>>>>>> konflikt
+}
+else
+{
+	return 0.1*a+0.9*b;
 }
 ?>
